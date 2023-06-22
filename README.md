@@ -15,7 +15,6 @@ Current version: **1.6.0**
 
 - [vanilla JS function](https://github.com/jigglycrumb/ASCIImoji/releases/download/1.6.0/asciimoji.js) | [minified](https://github.com/jigglycrumb/ASCIImoji/releases/download/1.6.0/asciimoji.min.js)
 - [jQuery plugin](https://github.com/jigglycrumb/ASCIImoji/releases/download/1.6.0/asciimoji.jquery.js) | [minified](https://github.com/jigglycrumb/ASCIImoji/releases/download/1.6.0/asciimoji.jquery.min.js) - for text fields in your projects
-- [Chrome Extension](https://chrome.google.com/webstore/detail/asciimoji/pglkjdoamcojlfjbdeenodmpkjkgplik) - asciify your browsing experience
 - [Mac OS text shortcut dictionary](https://github.com/jigglycrumb/ASCIImoji/releases/download/1.6.0/asciimoji.plist) - system-wide support on Macs and iOS
 
   (generators are not supported though)
@@ -51,7 +50,7 @@ If you want custom delimiters, pass in the options object:
 You can also do live binding so that elements added to the DOM later will have ASCIImoji enabled:
 
     $(document).on('focus', 'textarea', function() {
-      $(this).asciimoji();
+      $( ͡° ͜ʖ ͡°)_/¯.asciimoji();
     });
 
 Note: The jQuery plugin does not include the emoticon dictionary. To use the plugin you'll have to include both scripts into your page, the JS function and the jQuery plugin.
